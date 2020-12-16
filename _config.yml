@@ -1,0 +1,21 @@
+title: CS3237 Projects Showcase
+description: >- # this means to ignore newlines until "baseurl:"
+  Projects Showcase For NUS module CS3237 - Introduction to Internet Of Things.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cs3237.github.io/"
+
+paginate: 9
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+#  - scope:
+#      path: "assets/"
+#    values:
+#      image: true
