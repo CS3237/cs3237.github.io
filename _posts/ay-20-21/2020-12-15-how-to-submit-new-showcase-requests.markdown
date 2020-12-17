@@ -30,7 +30,7 @@ Please refer to the sample code [here](https://github.com/CS3237/cs3237.github.i
 
 #### Instructions
 
-#### Project Page
+##### Project Page
 You need to create a markdown page for your project as shown [here](https://github.com/CS3237/cs3237.github.io/blob/gh-pages/_posts/ay-20-21/2020-12-15-how-to-submit-new-showcase-requests.markdown).
 <br>
 This file will contain all the information you wish to convey about your project. 
