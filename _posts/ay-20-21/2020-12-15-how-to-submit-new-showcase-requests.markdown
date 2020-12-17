@@ -10,8 +10,6 @@ categories: ay2020-21
 
 tags: health social utility
 
-ay: 2020-21
-
 team: 
   - name: Ashwin
     github: ashwinsk
@@ -24,24 +22,25 @@ excerpt: How to guide for the project showcase for AY 2020-21
 
 ---
 
-### CS3237 Specifics
+### CS3237 Instructions
 
-Please refer to the sample code [here](https://github.com/CS3237/cs3237.github.io/tree/gh-pages).
+Please refer to the sample code [here](https://github.com/CS3237/cs3237.github.io/tree/gh-pages). 
+For any other queries please feel free to either raise an issue in github or email us.
 
-#### Instructions
-
-##### Project Page
+#### Project Page
 You need to create a markdown page for your project as shown [here](https://github.com/CS3237/cs3237.github.io/blob/gh-pages/_posts/ay-20-21/2020-12-15-how-to-submit-new-showcase-requests.markdown).
+It is recommended to create a copy of this file and start editing in this.
 <br>
 This file will contain all the information you wish to convey about your project. 
 It is recommended to add your motivation, usage and benefits etc in this document.
 <br>
 While writing the different sections for the page in markdown please make sure you use `##` or lower, as `#` will be used for the post title. 
-Please follow the file naming conventions described in the Jekyll section below.
+** Please follow the file naming conventions described in the Jekyll section below. **
 <br>
 This file needs to be only uploaded to this [directory](https://github.com/CS3237/cs3237.github.io/tree/gh-pages/_posts/ay-20-21).
+<br>
 
-##### Images
+#### Images
 A thumbnail image for your project needs to be uploaded which will be displayed on the homepage along with all the other projects. 
 The link to this image needs to be added as shown in `line 5` of your markdown file as shown in this [example](https://github.com/CS3237/cs3237.github.io/blob/gh-pages/_posts/ay-20-21/2020-12-15-how-to-submit-new-showcase-requests.markdown).
 <br>
@@ -76,9 +75,10 @@ Please make sure you are only adding the markdown file for your project and the 
 
 Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`YEAR-MONTH-DAY-group-<group-number>-<title>.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` / `markdown` is the file extension representing the format used in the file. 
+After that, include the necessary front matter. 
 
 Jekyll also offers powerful support for code snippets:
 {% highlight ruby %}
